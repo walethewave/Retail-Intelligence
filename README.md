@@ -117,11 +117,54 @@ The results of the RFM analysis help in understanding the customer base and deve
 - **Targeted Campaigns**: Create personalized marketing campaigns for different segments.
 - **Customer Lifetime Value (CLV)**: Use RFM scores to estimate the long-term value of customers.
 - **Re-engagement**: Design strategies for inactive or low-value customers.
+![Screenshot 2024-11-09 030254](https://github.com/user-attachments/assets/2e67a501-bd5f-463e-b01d-ebda0fb33bd5)
+
+  #### Customer Segmentation Dashboard
+Overview
+This dashboard provides an in-depth analysis of customer behavior using RFM (Recency, Frequency, and Monetary) scoring. The data visualizations help to understand customer engagement, spending habits, and segmentation. By breaking down the customer base into Platinum, Gold, Silver, and Bronze segments, this dashboard aims to guide data-driven decision-making for targeted marketing strategies.
+
+Key Insights
+RFM Score Distribution:
+The bar chart shows the distribution of customers' RFM scores across various segments. Higher RFM scores are associated with Platinum customers, who contribute significantly to the total sales, frequency, and recency metrics.
+RFM Score Trend by Segment:
+This trend line shows how RFM scores vary across customer segments, indicating which segments are more consistent in engagement over time. Platinum customers maintain the highest RFM scores, suggesting strong loyalty and frequent engagement.
+Purchases by Frequency Score:
+The donut chart indicates that Platinum customers make up the largest share of total purchases (66.93%), followed by Gold, Silver, and Bronze segments. This reflects a concentration of purchases among the highest loyalty segment.
+Revenue by Spending Score:
+The bar chart compares the monetary contribution of each segment, with Platinum customers generating the highest revenue (5.3M). This metric reinforces the significance of the Platinum segment in terms of spending power.
+Revenue by Customer Segment:
+The treemap shows the revenue breakdown by individual RFM segments, highlighting “Platinum_Platinum” as the most lucrative customer group. This segment alone contributes a substantial portion of the overall revenue.
+Recency Score by Segment:
+This visualization of recency scores per segment demonstrates that the highest recency scores belong to Platinum segments, showing that these customers have been active recently. It also highlights opportunities to re-engage lower-recency segments like Bronze and Silver.
+Proposed Solutions
+Based on the insights:
+
+Targeted Marketing:
+
+Focus on retention strategies for the Platinum segment to maintain their high engagement. This could include loyalty programs, exclusive discounts, or personalized product recommendations.
+Re-engagement campaigns for lower-recency segments (e.g., Bronze and Silver) through email marketing or special offers could bring these customers back into active status.
+Customer Acquisition and Upselling:
+
+Upsell opportunities can be focused on Gold customers, who are already moderately engaged and could be moved up to Platinum with targeted promotions.
+New customer acquisition campaigns could prioritize customers with spending habits similar to the Silver and Bronze segments but emphasize value and benefits to increase their frequency and spending.
+Optimized Resource Allocation:
+
+Allocate marketing resources to segments based on their revenue potential, with the majority directed toward high-value segments (Platinum and Gold) for sustained returns.
+Effectiveness of Proposed Solutions
+The proposed strategies aim to maximize the value from existing high-value customers while encouraging less engaged segments to increase their frequency and spending. By concentrating efforts on Platinum and Gold segments, the business can drive revenue growth efficiently. Re-engagement efforts for lower segments, while more challenging, offer potential for customer lifetime value improvements with minimal costs.
+
+Next Target Audience
+The next marketing campaigns should aim at:
+
+Platinum and Gold Customers for upselling and retention, given their strong revenue contributions.
+Bronze and Silver Customers for reactivation, particularly focusing on lapsed users with potential to return to regular purchasing patterns.
+
+This dashboard offers a comprehensive view of customer segmentation, emphasizing actionable insights for each customer segment. Through targeted marketing, re-engagement strategies, and efficient resource allocation, these insights can lead to increased customer lifetime value and optimized marketing ROI.
 
 ## Requirements
 
 - Python libraries: `pandas`, `matplotlib`, `seaborn`
-
+- Power Bi
 ## Conclusion
 
 This RFM segmentation project provides a robust method for analyzing customer behavior, helping businesses optimize their marketing efforts and improve customer experience. By utilizing RFM scores, you can better understand customer value and loyalty, allowing for more effective decision-making and customer relationship management.
@@ -129,3 +172,4 @@ This RFM segmentation project provides a robust method for analyzing customer be
 --- 
 
 This `README.md` file outlines the purpose, methods, and key code elements of your RFM analysis project, providing a clear overview for anyone reviewing or using the project.
+Afolabi Olawale.
