@@ -1,5 +1,4 @@
 # Retail-Intelligence
-Here is a `README.md` file in Markdown format for your RFM analysis project:
 
 ---
 
